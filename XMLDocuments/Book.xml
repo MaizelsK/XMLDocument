@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<Book 
+  Id="e538a333-031f-4808-b37c-2276fcee2377"
+  Name ="Стихи"
+  Author ="А.С.Пушкин"
+  Price ="1000.0"
+  PublishDate ="11.12.12"/>-->
+
+<Book>
+  <Id>e538a333-031f-4808-b37c-2276fcee2377</Id>
+  <Name>Стихи</Name>
+  <Author>А.С.Пушкин</Author>
+  <Price>1000,0</Price>
+  <PublishDate>11.12.12</PublishDate>
+</Book>
