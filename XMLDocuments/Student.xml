@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Student>
+  <Name>Kirill</Name>
+  <SurName>Maizels</SurName>
+  <Specialization>IT</Specialization>
+  <Salary>50000</Salary>
+</Student>

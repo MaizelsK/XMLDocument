@@ -11,6 +11,8 @@ namespace XMLDocuments
     {
         static void Main(string[] args)
         {
+            //CLASSWORK
+
             /*XmlDocument document = new XmlDocument();
 
             document.Load("Book.xml");
@@ -29,7 +31,22 @@ namespace XMLDocuments
 
             document.Save("Book.xml");*/
 
-            XDocument.PrintTags("Book.xml");
+            //PRACTICE
+
+            //XDocument.PrintTags("Book.xml");
+
+            //HOMEWORK
+
+            Homework.Task2();
+        }
+
+        static public void PrintItem(Item item)
+        {
+            Console.WriteLine($"{item.Title}\n\n" +
+                $"{item.Description}\n\n" +
+                $"{item.Link}\n" +
+                $"{item.PubDate}\n" +
+                $"-----------------------------------------");
         }
     }
 }

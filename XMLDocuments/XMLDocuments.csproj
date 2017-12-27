@@ -42,19 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
+    <Compile Include="Classwork\Book.cs" />
+    <Compile Include="Homework\Homework.cs" />
+    <Compile Include="Homework\Item.cs" />
     <Compile Include="Practice\XDocument.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="books.json" />
+    <None Include="Classwork\books.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Book.xml">
+    <Content Include="Classwork\Book.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Student.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
