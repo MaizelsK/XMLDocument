@@ -37,7 +37,7 @@ namespace XMLDocuments
 
             //HOMEWORK
 
-            Homework.Task2();
+            Homework.Task1();
         }
 
         static public void PrintItem(Item item)

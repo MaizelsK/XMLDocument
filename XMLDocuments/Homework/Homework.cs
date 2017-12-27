@@ -65,10 +65,10 @@ namespace XMLDocuments
 
             var root = document.DocumentElement;
 
-            foreach(XmlNode child in root.ChildNodes)
+            foreach (XmlNode child in root.ChildNodes)
             {
-                if(child.NodeType == XmlNodeType.Text)
-                    Console.WriteLine(child.InnerText);
+                if (child.NodeType == XmlNodeType.Element)
+                    Console.WriteLine(child.Name + ": " + child.InnerText);
             }
         }
     }
